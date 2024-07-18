@@ -1,0 +1,12 @@
+app:
+  name: mytestapp
+
+replicaCount: 3
+
+image:
+  repository: dirajan
+  name: contactlist
+  tag: latest
+
+service:
+  nodePort: 30001
