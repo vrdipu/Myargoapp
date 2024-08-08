@@ -9,7 +9,7 @@ image:
   tag: latest
 
 service:
-  nodePort: 30001
+  nodePort: 30005
 serviceAccount:
   create: true
   name: my-service-account
