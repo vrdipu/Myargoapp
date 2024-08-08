@@ -1,0 +1,21 @@
+app:
+  name: mytestapp
+
+replicaCount: 1
+
+image:
+  repository: dirajan
+  name: contactlist
+  tag: latest
+
+service:
+  nodePort: 30001
+serviceAccount:
+  create: true
+  name: my-service-account
+ingress:
+  enabled: false
+  # other ingress configurations
+autoscaling:
+  enabled: false
+  # other autoscaling configurations
